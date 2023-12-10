@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {margin: 0;}
+body {overflow-x: hidden;}
+button:hover{cursor: pointer;}
+button:active{transform: scale(0.95);}
+
+.topheader   {
+    padding: 13px 181px 14px 199px;
+    max-width: 1920px;
+    max-height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_top_header h6 {
+    padding-left: 11px;
+}
+
+h6 {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.center_top_header {
+    gap: 59px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location_top_header {
+    display: flex;
+}
+
+.call_top_header {
+    display: flex;
+}
+
+.mainheader {
+    border: 1px solid #FFF;
+    background: #02061D;
+    width: 1920px;
+    left: -10px;
+    display: flex;
+
+    height: 60px;
+}
+
+.menu_main_header {
+    padding: 19px 375px;
+}
+
+.menu_main_header h6{
+    color: white;
+    font-weight: 600;
+}
+
+.menu_main_header li{
+    list-style-type: none;
+}
+
+.menu_main_header a{
+    text-decoration: none;
+}
+
+.menu_main_header ol {
+    display: flex;
+    gap: 35px;
+    white-space: nowrap;
+}
+
+
+.menu_main_header li:hover {
+    text-decoration:underline 1px;
+    color: white;
+}
+
+.topheader button {
+     color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    height: 53px;
+    padding: 21px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #0082FE;
+    border: none;
+}
+
+.botheader {
+    text-align: center;
+    padding-bottom: 240px;
+}
+
+.background_img_botHeader{
+    width: 1920px;
+    height: 1096px;
+    flex-shrink: 0;
+    position: absolute;
+    background: url("img/header/botheader/background_image.png"), lightgray -18px 0px / 101.875% 118.978% no-repeat;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+}
+
+.botheader img{
+    padding-top: 352px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.section_1_ivents {
+    text-align: center;
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section_1_ivents {
+    padding-top: 110px;
+}
+main {
+    background: #02061D;
+}
+
+.ivent_img {
+    padding-top: 33px;
+    display: flex;
+    gap: 45px;
+    left: -123px;
+    position: absolute;
+
+    background: #02061D;
+}
+
+.ivent1, .ivent2, .ivent3, .ivent4 {
+    width: 492px;
+    height: 492px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.ivent1 img, .ivent2 img, .ivent3 img, .ivent4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.topivent {
+    width: 545px;
+    height: 57px;
+    color:#CC0EF1;
+    position: relative;
+}
